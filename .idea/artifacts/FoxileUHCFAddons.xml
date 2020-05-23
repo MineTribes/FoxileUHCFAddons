@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FoxileUHCFAddons">
+    <output-path>$PROJECT_DIR$/out/artifacts/FoxileUHCFAddons</output-path>
+    <root id="archive" name="FoxileUHCFAddons.jar">
+      <element id="module-output" name="FoxileUHCFAddons" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/cooldowns.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/security.yml" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,71 @@
+main: com.minetribes.UHCFAddons
+name: FoxileUHCFAddons
+version: '1.1'
+description: Adds certain things to UHCF
+author: MineTribes
+commands:
+  feed:
+    description: Fills you up to full food levels.
+    usage: |
+      /<command>
+      Example: /<command> - Fills your own food levels.
+  smelt:
+    description: Smelt items in inventory.
+    usage: |
+      /<command>
+      Example: /<command> - Smelt items in your inventory.
+  block:
+    description: Turns ingots into blocks.
+    usage: |
+      /<command>
+  foxileuhcfaddons:
+    description: Turns ingots into blocks.
+    usage: |
+      /<command>
+  strength:
+    description: Turns ingots into blocks.
+    usage: |
+      /<command>
+  fix:
+    description: Turns ingots into blocks.
+    usage: |
+      /<command>
+
+
+permissions:
+  foxile.feed.thief:
+    description: Permission for the 1 minute cooldown of the feed command for the Thief rank.
+  foxile.feed.sentinel:
+    description: Permission for the 3 minute cooldown of the feed command for the Sentinel rank.
+  foxile.feed.bandit:
+    description: Permission for the 5 minute cooldown of the feed command for the Bandit rank.
+  foxile.feed.hunter:
+    description: Permission for the 10 minute cooldown of the feed command for the Hunter rank.
+  foxile.feed.ranger:
+    description: Permission for the 15 minute cooldown of the feed command for the Ranger rank.
+
+  foxile.fix.ranger:
+    description: Permission for the 90 minute cooldown of the fix command for the Ranger rank.
+  foxile.fix.hunter:
+    description: Permission for the 60 minute cooldown of the fix command for the Hunter rank.
+  foxile.fix.bandit:
+    description: Permission for the 45 minute cooldown of the fix command for the Bandit rank.
+  foxile.fix.sentinel:
+    description: Permission for the 30 minute cooldown of the fix command for the Sentinel rank.
+  foxile.fix.thief:
+    description: Permission for the 15 minute cooldown of the fix command for the Thief rank.
+
+  foxile.fixall.bandit:
+    description: Permission for the 45 minute cooldown of the fix command for the Ranger rank.
+  foxile.fixall.sentinel:
+    description: Permission for the 30 minute cooldown of the fix command for the Ranger rank.
+  foxile.fixall.thief:
+    description: Permission for the 15 minute cooldown of the fix command for the Ranger rank.
+
+  foxile.smelt:
+    description: Foxile smelt in inventory.
+  foxile.block:
+    description: Turns ingots into blocks.
+  foxile.reclaim:
+    description: Ability to do /reclaim.
+
